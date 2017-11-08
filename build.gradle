@@ -1,0 +1,70 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+webAppDirName = "webapp"
+group 'DataShow'
+version '1.0-SNAPSHOT'
+
+tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
+
+task createJavadoc(type: Javadoc) {
+	source = sourceSets.main.allJava
+}
+
+// tag::dependencies[]
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+sourceSets {
+	src {
+		main{
+			java
+			resources
+		}
+		test{
+			java
+			resources
+		}
+	}
+}
+
+// tag::repositories[]
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+// end::repositories[]
+
+
+
+dependencies {
+	providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+
+	// spring library
+	compile group: 'org.springframework', name: 'spring-core', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework', name: 'spring-web', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework', name: 'spring-webmvc', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework', name: 'spring-orm', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework', name: 'spring-aop', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework', name: 'spring-aspects', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework', name: 'spring-jdbc', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework', name: 'spring-tx', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.3.RELEASE'
+	compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.3.RELEASE'
+
+	// hibernate library
+	compile group: 'org.hibernate', name: 'hibernate-core', version: '5.0.1.Final'
+	compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.0.1.Final'
+	compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '1.11.6.RELEASE'
+
+	// common library
+	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.43'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.8.2'
+	compile group: 'commons-logging', name: 'commons-logging-api', version: '1.1'
+	compile 'org.slf4j:slf4j-api:1.7.13'
+	compile group: 'org.apache.commons', name: 'commons-jci-core', version: '1.1'
+	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.38'
+	// test library
+	testCompile 'junit:junit:4.12'
+	testCompile 'org.springframework:spring-test:4.3.10.RELEASE'
+}
