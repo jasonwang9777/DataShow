@@ -4,6 +4,8 @@
 package com.datashow.usermanager.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -21,21 +23,8 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	UserRepository userRepository;
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.datashow.usermanager.service.IUserService#loginByUserNameAndPassword()
-	 */
-	@Override
-	public boolean loginByUserNameAndPassword(String email, String password) {
-		UserPO userPO = userRepository.findByUserEmailAndUserPassword(email, password);
-		if (null != userPO) {
-			// TODO: login cookies;
-			return true;
-		} else {
-			return false;
-		}
+	public Page<UserPO> findAllFromPage(Pageable page) {
+		return userRepository.findAll(page);
 	}
 
 }

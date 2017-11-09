@@ -19,8 +19,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-	@Autowired
-	private DataSource dataSource;
+//	@Autowired
+//	private DataSource dataSource;
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
@@ -30,13 +30,19 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		// auth.inMemoryAuthentication().withUser("test").password("test").roles("test");
-		auth.jdbcAuthentication().dataSource(dataSource).usersByUsernameQuery(getUserQuery());
+		 auth.inMemoryAuthentication().withUser("test").password("test").roles("test");
+//		auth.jdbcAuthentication().dataSource(dataSource).usersByUsernameQuery(getUserQuery())
+//				.groupAuthoritiesByUsername(getGroupAuthoritiesByUser());
 	}
 
 	private static String getUserQuery() {
-		String sql = "select userEmail,userPassword,userStatus from t_user where userEmail=?";
-		return sql;
+		String result = "select userEmail,userPassword,userStatus from t_user where userEmail=?";
+		return result;
+	}
+
+	private static String getGroupAuthoritiesByUser() {
+		String result = "";
+		return result;
 	}
 
 }

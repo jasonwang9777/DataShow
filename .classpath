@@ -1,96 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry path="bin" kind="output"/>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.3.RELEASE/46803840259c6d51c531e4f07f4213d758c6ee1d/spring-webmvc-4.2.3.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.3.RELEASE/d2ccd08b31ae2582fc499d0e92178e9a133ae27d/spring-webmvc-4.2.3.RELEASE-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.3.RELEASE/d2ccd08b31ae2582fc499d0e92178e9a133ae27d/spring-webmvc-4.2.3.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.3.RELEASE/46803840259c6d51c531e4f07f4213d758c6ee1d/spring-webmvc-4.2.3.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9f3771903616e33521836fd999d63efbfebf90d/spring-security-config-4.2.3.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9e3741f7cb7db06829fc818e38f58bbe9f5a0b94/spring-security-config-4.2.3.RELEASE-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.2.3.RELEASE/a329e07c5773aee1cbdd6f1bebf29ada7ced613/spring-aspects-4.2.3.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.2.3.RELEASE/14233c5c12a69dd31296b890a341a719de5319fc/spring-aspects-4.2.3.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.2.3.RELEASE/7a03e737484ca232d7146852f06d067ac21427ac/spring-security-web-4.2.3.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.2.3.RELEASE/2804ac6a00705bed0836fe5826e0496ace681469/spring-security-web-4.2.3.RELEASE-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9e3741f7cb7db06829fc818e38f58bbe9f5a0b94/spring-security-config-4.2.3.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.3.RELEASE/9f3771903616e33521836fd999d63efbfebf90d/spring-security-config-4.2.3.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.11.6.RELEASE/e01f5aa1781f54a13a58ad7857eefce677fc1bc3/spring-data-jpa-1.11.6.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.11.6.RELEASE/52b30482ad7525a67276f0c6a88021024640ef7d/spring-data-jpa-1.11.6.RELEASE-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.2.3.RELEASE/2804ac6a00705bed0836fe5826e0496ace681469/spring-security-web-4.2.3.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.2.3.RELEASE/7a03e737484ca232d7146852f06d067ac21427ac/spring-security-web-4.2.3.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c0e47a47036c94d6fdd02696bf52be6d1adbd4d/spring-security-core-4.2.3.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c620ead93220cae89562bd3eda6ec875c43e1db/spring-security-core-4.2.3.RELEASE-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.1.Final/b08af718bc5cd90f448a3473b8e9b17e6028dee8/hibernate-core-5.0.1.Final-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.1.Final/794cb3f9efd69427a787dc1687e0166940ca27a6/hibernate-core-5.0.1.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.6.RELEASE/ed21344ea782672928cee7e6bfad655c399c0b94/spring-data-commons-1.13.6.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.6.RELEASE/7e02733999787cfdfff59cc3aea353f629c17817/spring-data-commons-1.13.6.RELEASE-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.1.Final/f13caf9f022f280e4a163bdefd266714f15f1b05/hibernate-entitymanager-5.0.1.Final-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.1.Final/52e15f240ee14071694d1b44a1890e5569fd33d4/hibernate-entitymanager-5.0.1.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/91dae64c4280093ad5fb4736a10913c9233479c1/spring-web-4.3.9.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.11.6.RELEASE/52b30482ad7525a67276f0c6a88021024640ef7d/spring-data-jpa-1.11.6.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.11.6.RELEASE/e01f5aa1781f54a13a58ad7857eefce677fc1bc3/spring-data-jpa-1.11.6.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.10.RELEASE/645ce6fdba38448d183a1374506fc24036009869/spring-context-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.10.RELEASE/b891c5162908b5d092240c24df1b5e972a17768d/spring-context-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.10.RELEASE/3a8c23246045e5e1dbd7d91354741b165e997a88/spring-aop-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.10.RELEASE/807108d49129a5445be42c9bc543792ad7ade8e0/spring-aop-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.10.RELEASE/6450e007fdf2f9340f33b8d7bddb7f1f139b19d1/spring-orm-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.10.RELEASE/84e6e0356720eb53ef3fd3a2933641e38bc54377/spring-orm-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.10.RELEASE/91e2f69e633f8eac5d5ef516595556ab7db87f3d/spring-jdbc-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.10.RELEASE/c576aed96473eeeed65403aa0f21e6fc6fb2b4d9/spring-jdbc-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.10.RELEASE/569d30fd8d2050910e0271b838cf927ebb7efcdc/spring-tx-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.10.RELEASE/c66d09f33f6b2e46442f3445f0611efbc421e85/spring-tx-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.10.RELEASE/9d89b786f755f9b1da344f10f6f045f927679a72/spring-beans-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.10.RELEASE/eb22a9c7f612da75e9234cf089c2069e32f44b3c/spring-beans-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.10.RELEASE/4975ab542028945ab98fefba772472a40495d7ca/spring-expression-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.10.RELEASE/235f4acafda7a7f9a08a9f49f667615641305a11/spring-expression-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/74cacfe24c0f88a4577990fb24c9fdf4a73f443c/spring-core-4.3.10.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.2.3.RELEASE/14233c5c12a69dd31296b890a341a719de5319fc/spring-aspects-4.2.3.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.2.3.RELEASE/a329e07c5773aee1cbdd6f1bebf29ada7ced613/spring-aspects-4.2.3.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.1.Final/52e15f240ee14071694d1b44a1890e5569fd33d4/hibernate-entitymanager-5.0.1.Final.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.1.Final/f13caf9f022f280e4a163bdefd266714f15f1b05/hibernate-entitymanager-5.0.1.Final-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.1.Final/794cb3f9efd69427a787dc1687e0166940ca27a6/hibernate-core-5.0.1.Final.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.1.Final/b08af718bc5cd90f448a3473b8e9b17e6028dee8/hibernate-core-5.0.1.Final-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -99,8 +66,14 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.2/979fc0cf8460302e4ffbfe38c1b66a99450b0bb7/log4j-core-2.8.2.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.2/4693b08b8d9abe152417b9564bb7a68d82630180/log4j-core-2.8.2-sources.jar">
+	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -109,18 +82,14 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/ffd0827a7c67d5915b7dc611afbda56a1f247191/jcl-over-slf4j-1.7.25-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-core/1.1/1f29e34b84d60e9333a68b14fdbb10e2c3fecdfb/commons-jci-core-1.1-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-core/1.1/765f587c613cc59459c1811d9e85271fc722af55/commons-jci-core-1.1.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-core/1.1/765f587c613cc59459c1811d9e85271fc722af55/commons-jci-core-1.1.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-core/1.1/1f29e34b84d60e9333a68b14fdbb10e2c3fecdfb/commons-jci-core-1.1-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -129,13 +98,14 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-fam/1.1/32ae39163b0d71ad2487f71acf107a7ac2c67e5c/commons-jci-fam-1.1.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-fam/1.1/81775c6bcfef9011fd74a64834a90ed5fd2bb424/commons-jci-fam-1.1-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -144,18 +114,30 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.7/f753e78bbe484e58b3b4e5ce3cc1751e50d11f6c/aspectjweaver-1.8.7.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.7/2c276bb839d67f39766342cf77ea799da72ea323/aspectjweaver-1.8.7-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.0.Final/18a9e99c0150d7afa5042c53c01e7b3db0e55f0f/hibernate-commons-annotations-5.0.0.Final.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.0.Final/cb1fee47f3d3947bfb3a6e0e35ca55d35d155632/hibernate-commons-annotations-5.0.0.Final-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.7/2c276bb839d67f39766342cf77ea799da72ea323/aspectjweaver-1.8.7-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.7/f753e78bbe484e58b3b4e5ce3cc1751e50d11f6c/aspectjweaver-1.8.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c620ead93220cae89562bd3eda6ec875c43e1db/spring-security-core-4.2.3.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.3.RELEASE/5c0e47a47036c94d6fdd02696bf52be6d1adbd4d/spring-security-core-4.2.3.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -164,13 +146,22 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1/aabab3165b8ea936b9360abbf448459c0d04a5a4/geronimo-jta_1.1_spec-1.1.1.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1/a84978fba1f1916bf2931e44d961705a9e64aec7/geronimo-jta_1.1_spec-1.1.1-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar" sourcepath="C:/Users/Jason/AppData/Local/Temp/.org.sf.feeling.decompiler1509949134704/source/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1/a84978fba1f1916bf2931e44d961705a9e64aec7/geronimo-jta_1.1_spec-1.1.1-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1/aabab3165b8ea936b9360abbf448459c0d04a5a4/geronimo-jta_1.1_spec-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -179,13 +170,22 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.2.2.Final/5881a59efdabb52c1b97f29e9015ef724aaabf65/jandex-1.2.2.Final.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.2.2.Final/998c6213335ae37f60fa16e15fb23eb23cd1887b/jandex-1.2.2.Final-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.2.2.Final/998c6213335ae37f60fa16e15fb23eb23cd1887b/jandex-1.2.2.Final-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/1.2.2.Final/5881a59efdabb52c1b97f29e9015ef724aaabf65/jandex-1.2.2.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -194,13 +194,46 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.10/1a14fe9e912f6e8bdbb5429b78b4090d8b47bc1/aspectjrt-1.8.10.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.10/230c528119f8479c4f130fbaeebc67fc986afb88/aspectjrt-1.8.10-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.2/e590eeb783348ce8ddef205b82127f9084d82bf3/log4j-api-2.8.2.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.2/459702eacc545a5478627fe879cec6e004c00f3a/log4j-api-2.8.2-sources.jar">
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.0.Final/cb1fee47f3d3947bfb3a6e0e35ca55d35d155632/hibernate-commons-annotations-5.0.0.Final-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.0.Final/18a9e99c0150d7afa5042c53c01e7b3db0e55f0f/hibernate-commons-annotations-5.0.0.Final.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.6.RELEASE/7e02733999787cfdfff59cc3aea353f629c17817/spring-data-commons-1.13.6.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.6.RELEASE/ed21344ea782672928cee7e6bfad655c399c0b94/spring-data-commons-1.13.6.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.10/230c528119f8479c4f130fbaeebc67fc986afb88/aspectjrt-1.8.10-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.10/1a14fe9e912f6e8bdbb5429b78b4090d8b47bc1/aspectjrt-1.8.10.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/ffd0827a7c67d5915b7dc611afbda56a1f247191/jcl-over-slf4j-1.7.25-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.25/f8c32b13ff142a513eeb5b6330b1588dcb2c0461/jcl-over-slf4j-1.7.25.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-fam/1.1/81775c6bcfef9011fd74a64834a90ed5fd2bb424/commons-jci-fam-1.1-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jci-fam/1.1/32ae39163b0d71ad2487f71acf107a7ac2c67e5c/commons-jci-fam-1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -209,21 +242,112 @@
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.10.RELEASE/e82664ba39497626cd29298cb16c161d901bfbee/spring-test-4.3.10.RELEASE.jar" sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.10.RELEASE/ecac20e95b228f1b9612aacee0787d436d118a59/spring-test-4.3.10.RELEASE-sources.jar">
 		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.10.RELEASE/807108d49129a5445be42c9bc543792ad7ade8e0/spring-aop-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.10.RELEASE/3a8c23246045e5e1dbd7d91354741b165e997a88/spring-aop-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.10.RELEASE/eb22a9c7f612da75e9234cf089c2069e32f44b3c/spring-beans-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.10.RELEASE/9d89b786f755f9b1da344f10f6f045f927679a72/spring-beans-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.10.RELEASE/b891c5162908b5d092240c24df1b5e972a17768d/spring-context-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.10.RELEASE/645ce6fdba38448d183a1374506fc24036009869/spring-context-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/74cacfe24c0f88a4577990fb24c9fdf4a73f443c/spring-core-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.10.RELEASE/235f4acafda7a7f9a08a9f49f667615641305a11/spring-expression-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.10.RELEASE/4975ab542028945ab98fefba772472a40495d7ca/spring-expression-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/ac31864038a1c31d5a49c1bef84e5af4a162a655/spring-web-4.3.9.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.9.RELEASE/91dae64c4280093ad5fb4736a10913c9233479c1/spring-web-4.3.9.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.10.RELEASE/84e6e0356720eb53ef3fd3a2933641e38bc54377/spring-orm-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.10.RELEASE/6450e007fdf2f9340f33b8d7bddb7f1f139b19d1/spring-orm-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.10.RELEASE/c66d09f33f6b2e46442f3445f0611efbc421e85/spring-tx-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.10.RELEASE/569d30fd8d2050910e0271b838cf927ebb7efcdc/spring-tx-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.10.RELEASE/c576aed96473eeeed65403aa0f21e6fc6fb2b4d9/spring-jdbc-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.10.RELEASE/91e2f69e633f8eac5d5ef516595556ab7db87f3d/spring-jdbc-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/junit/junit/4.12/junit-4.12.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.10.RELEASE/ecac20e95b228f1b9612aacee0787d436d118a59/spring-test-4.3.10.RELEASE-sources.jar" kind="lib" path="C:/Users/Jason/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.10.RELEASE/e82664ba39497626cd29298cb16c161d901bfbee/spring-test-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Jason/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin"/>
 </classpath>

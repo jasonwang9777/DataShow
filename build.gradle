@@ -1,30 +1,37 @@
 apply plugin: 'java'
 apply plugin: 'war'
-apply plugin: 'eclipse-wtp'
+apply plugin: 'eclipse'
 
-webAppDirName = "webapp"
-group 'DataShow'
 version '1.0-SNAPSHOT'
 
 tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
 
-task createJavadoc(type: Javadoc) {
-	source = sourceSets.main.allJava
+
+// 生成Eclipse支持时，自动生成Deployment Assembly
+eclipse.classpath.file.withXml {
+	def node = it.asNode();
+	for (Node n : node.children()) {
+		if ("lib".equals(n.attribute("kind"))) {
+			def node_attributes = new Node(n, "attributes");
+			def map = new HashMap();
+			map.put("name", "org.eclipse.jst.component.dependency");
+			map.put("value", "/WEB-INF/lib");
+			def node_attribute = new Node(node_attributes, "attribute", map);
+		}
+	}
 }
 
 // tag::dependencies[]
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 sourceSets {
-	src {
-		main{
-			java
-			resources
-		}
-		test{
-			java
-			resources
-		}
+	main{
+		java
+		resources
+	}
+	test{
+		java
+		resources
 	}
 }
 
@@ -59,7 +66,7 @@ dependencies {
 
 	// common library
 	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.43'
-	compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.8.2'
+	compile group: 'log4j', name: 'log4j', version: '1.2.17'
 	compile group: 'commons-logging', name: 'commons-logging-api', version: '1.1'
 	compile 'org.slf4j:slf4j-api:1.7.13'
 	compile group: 'org.apache.commons', name: 'commons-jci-core', version: '1.1'
